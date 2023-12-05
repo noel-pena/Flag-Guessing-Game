@@ -49,6 +49,7 @@ app.post("/submit", (req, res) => {
     totalCorrect++;
     console.log(totalCorrect);
     isCorrect = true;
+    console.log(isCorrect);
   }
 
   nextQuestion();
