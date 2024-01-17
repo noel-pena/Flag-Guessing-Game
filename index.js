@@ -27,6 +27,8 @@ const db = new pg.Client({
 
 let totalCorrect = 0;
 
+console.log("test")
+
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
